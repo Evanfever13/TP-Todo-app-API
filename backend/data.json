@@ -1,19 +1,11 @@
 {
-  "students": [
+  "todos": [
     {
-      "id": 1,
-      "name": "Vito",
-      "age": 28
-    },
-    {
-      "id": 2,
-      "name": "Cyril",
-      "age": 24
-    },
-    {
-      "id": 3,
-      "name": "Julien",
-      "age": 21
+      "id": 0,
+      "name": "test",
+      "description": "description",
+      "priority": 0,
+      "checked": false    
     }
   ]
 }

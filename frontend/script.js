@@ -1,20 +1,12 @@
-const urlAPI = "http://localhost:3000/"
+const urlAPI = "http://localhost:8080/"
 
 const btn = document.querySelector(".btn")
-btn.addEventListener('click', getAllStudents)
+btn.addEventListener('click', getAllTodo)
 
-function getAllStudents() {
-    fetch(urlAPI + "students")
+
+function getAllTodo() {
+    fetch(urlAPI + "todoId/0")
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data =>  data)
     .catch(error => console.error('Error fetching data : ', error))
-}
-
-const btn1 = document.querySelector(".btn1")
-btn1.addEventListener('click', getStudent1)
-
-function getStudent1() {
-    fetch(urlAPI + "students/1")
-    .then(response => response.json())
-    .then(data => console.log(data))
-}
+}   
