@@ -1,13 +1,12 @@
 {
-  "name": "demo",
+  "name": "todoapp",
   "version": "1.0.0",
-  "description": "Demo server express",
+  "description": "todoapp",
   "license": "ISC",
-  "author": "Vito Deriu",
+  "author": "Evan Sedda",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js"
   },
   "dependencies": {
